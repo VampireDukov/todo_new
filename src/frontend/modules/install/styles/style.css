@@ -1,0 +1,68 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+
+}
+header{
+    margin-top: -10px;
+    padding-top: 60px;
+    width: 100%;
+    background-color: #af3016;
+    color: white;
+    height: 150px;
+    margin-bottom: 100px;
+}
+form{
+    width: 500px;
+    
+    margin: auto;
+}
+.form-row{
+    position: relative;
+    padding:0;
+    margin:auto;
+    margin-bottom: 3px;
+  
+
+}
+.install{
+    display: block;
+    width: 250px;
+    height:35px;
+    margin:0;
+    margin: auto;
+    padding-left: 10px;
+    border-width: 1px;
+    box-shadow: none;
+    border-color: #af3016;
+    
+}
+.show-pass-btn{
+    position:absolute;
+    bottom:15px;
+    right:140px;
+    transition: all .2s ease-in-out;
+    height:10px;
+    cursor: pointer;
+}
+.show-pass-btn:hover{
+    transform: scale(1.4);
+}
+.send-button{
+    display: block;
+    width: 264px;
+    height: 35px;
+    margin: 0;
+    margin: auto;
+    background-color: #af3016;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+}
+.loader{
+    padding-top: 3px;
+    height: 20px;
+}
